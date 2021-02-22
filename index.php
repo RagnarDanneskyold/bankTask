@@ -13,11 +13,11 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="header-left">
-                        <p class="header-left-text">Кучергин М.Е.</p>
+                        <p class="header-left-text">Джон Уик</p>
                     </div>
                     <div class="header-right">
-                        <a class="header-right-text" href="tel:+79195290076">+7-919-529-00-76</a>
-                        <a class="header-right-text" href="mailto:martiniden148@yandex.ru">martiniden148@yandex.ru</a>
+                        <a class="header-right-text" href="tel:">+7-999-999-99-76</a>
+                        <a class="header-right-text" href="mailto:">mail here</a>
                     </div>
                 </div>
             </div>
