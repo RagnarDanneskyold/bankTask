@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <title>Norvic</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Credit-calc</title>
+    <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
     <div class="wrapper">
@@ -52,16 +52,17 @@
             <div class="container">
                 <div class="footer-wrap">
                     <div class="header-left">
-                        <p class="header-left-text">Кучергин М.Е.</p>
+                        <p class="header-left-text">Джон Уик</p>
                     </div>
                     <div class="header-right">
-                        <a class="header-right-text" href="tel:+79195290076">+7-919-529-00-76</a>
-                        <a class="header-right-text" href="mailto:martiniden148@yandex.ru">martiniden148@yandex.ru</a>
+                        <a class="header-right-text" href="tel:">+7-999-999-99-76</a>
+                        <a class="header-right-text" href="mailto:">mail here</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="./public/js/old.js"></script>
+    <script src="./public/js/bundle.js"></script>
 </body>
 </html>
