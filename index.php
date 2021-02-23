@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-    <script src="./public/js/old.js"></script>
+    <script src="./src/js/oldScripts.js"></script>
     <script src="./public/js/bundle.js"></script>
 </body>
 </html>
