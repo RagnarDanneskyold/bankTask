@@ -22,6 +22,7 @@ html, body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .header {
@@ -154,3 +155,6 @@ html, body {
         }
     }
 }
+
+@import "styles1.scss";
+@import "styles2.scss";
