@@ -9,6 +9,10 @@ module.exports = {
       filename: 'bundle.js'
     },
     devtool:'eval-source-map',
+    devServer: {
+      port: 4200,
+      hot: true
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
@@ -30,9 +34,9 @@ module.exports = {
           use: [ 
               {
               loader: MiniCssExtractPlugin.loader,
-              options: {
-                publicPath: './public/css',
-              },
+              // options: {
+              //   publicPath: './public/css',
+              // },
             },
             {
               loader: "css-loader",
