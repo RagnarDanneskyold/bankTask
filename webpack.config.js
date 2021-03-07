@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
     entry: './src/js/app.js',
     output: {
-      path: path.resolve(__dirname, 'public/js'),
+      path: path.resolve(__dirname, 'public/'),
       filename: 'bundle.js'
     },
     devtool:'eval-source-map',
@@ -13,15 +13,6 @@ module.exports = {
       port: 4200,
       hot: true
     },
-    plugins: [
-      new CleanWebpackPlugin(),
-      new MiniCssExtractPlugin({
-        // Options similar to the same options in webpackOptions.output
-        // both options are optional
-        filename: "[name].css",
-        chunkFilename: "[id].css",
-      }),
-    ],
     module: {
       rules: [
         {
@@ -54,6 +45,15 @@ module.exports = {
         },
       ]
     },
+    plugins: [
+      // new CleanWebpackPlugin(),
+      new MiniCssExtractPlugin({
+        // Options similar to the same options in webpackOptions.output
+        // both options are optional
+        filename: 'css/[name].css',
+        chunkFilename: "[id].css",
+      }),
+    ],
     watchOptions: {
       ignored: /node_modules/,
     },

@@ -2,7 +2,7 @@
   "name": "credit-pays-calc",
   "version": "0.0.0",
   "scripts": {
-    "watch": "webpack --watch",
+    "watch": "webpack --watch --mode=development",
     "build": "webpack --mode=production",
     "serve": "webpack serve --open --mode=development",
     "dev": "webpack --mode=development"
