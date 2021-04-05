@@ -1,6 +1,7 @@
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     entry: './src/js/app.js',
@@ -43,6 +44,10 @@ module.exports = {
             },
           ],
         },
+        {
+          test: /\.vue$/,
+          loader: 'vue-loader'
+        }
       ]
     },
     plugins: [
@@ -53,6 +58,7 @@ module.exports = {
         filename: 'css/[name].css',
         chunkFilename: "[id].css",
       }),
+      new VueLoaderPlugin()
     ],
     watchOptions: {
       ignored: /node_modules/,
